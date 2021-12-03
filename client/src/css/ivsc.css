@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.img2 {
+    position: absolute;   
+    width: 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    right: 0;
+    /* flex: 1; */
+}
+div.left p{
+    margin-top: 15px;
+    padding: 0% 5% 0% 5%;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    /* position: absolute;
+    top: 10%; */
+    padding-top: 5%;
+    padding-bottom: 4px;
+}
+
+div.left h1{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+
+strong{
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 30px;
+}

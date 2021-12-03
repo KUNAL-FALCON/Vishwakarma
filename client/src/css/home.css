@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+.img1 {
+    width: 100%;
+    z-index: 0;
+}
+.IBody {
+    margin-top: 15px;
+    padding: 0% 5% 0% 5%;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block-black {
+    position: absolute;
+    bottom: 60%;
+    left: 32%;
+    background-color: black;
+    
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+.text-block-white {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    width: 100%;
+    left:0%;
+    opacity: 0.85;
+  }
+
+div h1{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+div p{
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 4px;
+}
+
+h1.head{
+    font-size: 50px;
+}

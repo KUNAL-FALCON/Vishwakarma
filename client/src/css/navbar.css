@@ -1,0 +1,39 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=PT+Sans+Narrow&display=swap');
+
+.Navbar {
+    margin-left: 8%;
+}
+
+.Content {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    height: fit-content;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.Content:hover {
+    
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset -11px 11px 22px #000000,
+                inset 11px -11px 22px #000000;
+
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
